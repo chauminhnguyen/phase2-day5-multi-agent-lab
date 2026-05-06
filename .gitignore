@@ -11,3 +11,6 @@ build/
 reports/*.json
 reports/*.md
 !.gitkeep
+langfuse-skills/
+agent-skills/
+agent-skillsskillslangfuse
