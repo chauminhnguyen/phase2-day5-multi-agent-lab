@@ -84,8 +84,7 @@ python -m multi_agent_research_lab.cli --help
 ### 4. Chạy baseline skeleton
 
 ```bash
-python -m multi_agent_research_lab.cli baseline \
-  --query "Research GraphRAG state-of-the-art and write a 500-word summary"
+python -m multi_agent_research_lab.cli baseline --query "Research GraphRAG state-of-the-art and write a 500-word summary"
 ```
 
 Lệnh này chỉ chạy khung baseline tối giản. Học viên cần tự triển khai logic LLM thực tế trong `src/multi_agent_research_lab/services/llm_client.py`.
@@ -93,8 +92,7 @@ Lệnh này chỉ chạy khung baseline tối giản. Học viên cần tự tri
 ### 5. Chạy multi-agent skeleton
 
 ```bash
-python -m multi_agent_research_lab.cli multi-agent \
-  --query "Research GraphRAG state-of-the-art and write a 500-word summary"
+python -m multi_agent_research_lab.cli multi-agent --query "Research GraphRAG state-of-the-art and write a 500-word summary"
 ```
 
 Mặc định lệnh sẽ báo các `TODO` cần làm. Đây là chủ đích của starter repo.
