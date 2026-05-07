@@ -9,7 +9,6 @@ dist/
 build/
 *.egg-info/
 reports/*.json
-reports/*.md
 !.gitkeep
 langfuse-skills/
 agent-skills/
